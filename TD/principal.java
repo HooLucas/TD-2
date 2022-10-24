@@ -10,7 +10,12 @@ public class principal {
     {
         for(int e=0;e<liste.size();e++)
         {
+            Boolean test=true;
             for(int i=0;i<predicats.size();i++)
+            {
+                test=predicats.get(i).test(liste.get(e));
+            }
+            if (test==true)
             {
                 
             }
