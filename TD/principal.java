@@ -1,11 +1,22 @@
 package TD;
 import java.util.function.Predicate;
 import java.util.function.Function;
+import java.util.ArrayList;
 import java.util.function.*;
 
 public class principal {
 
-    
+    public <T> ArrayList<T> filtragepredicatif(ArrayList<Predicate<T>> predicats,ArrayList<T> liste)
+    {
+        for(int e=0;e<liste.size();e++)
+        {
+            for(int i=0;i<predicats.size();i++)
+            {
+                
+            }
+        }
+        return(null);
+    }
     public static void main(String[] args)
     {
         
@@ -21,6 +32,8 @@ public class principal {
         System.out.println(resultatpetit);
         Boolean acceder=accesAutorise.test(paire);
         System.out.println(acceder);
+
+
     }
 }
 
