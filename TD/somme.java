@@ -8,3 +8,5 @@ public interface somme<T> {
     somme<Double> sommerdbl = (Double x,Double b) -> (Double) x+b;
     somme<Float> sommerflt = (Float x, Float b) -> (Float) x+b;
 }
+
+
